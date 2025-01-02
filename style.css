@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f2ede8;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.logo::first-letter {
+    color: red; /* Change to any color */
+    font-size: 2rem; /* Example to make the first letter larger */
+    font-weight: bold; /* Make it bold */
+    font-family: cursive;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li{
+    list-style: none;
+}
